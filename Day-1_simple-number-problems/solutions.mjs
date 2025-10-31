@@ -74,11 +74,16 @@ function run(question, callback) {
 //     throw new Error("Please Enter a valid Integer");
 //   }
 
+// // way 1
 //   let sum = 0;
 //   for (let i = 1; i <= num; i++) {
 //     sum += i;
 //   }
 //   console.log(sum);
+
+// // way 2
+//    sum = (num * (num + 1)) / 2;
+//    console.log(sum);
 // });
 
 // ********************* 5. Product (Factorial) of N
